@@ -1,0 +1,111 @@
+
+
+body {
+  background-color:#F1F2EB;
+  margin: 0%;
+}
+
+h1{ 
+  font-family: "Open Sans", "Condor", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color:#2c2c2c 
+}
+
+h2{ 
+  font-family: "Open Sans", "Condor", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color:#2c2c2c 
+}
+
+h4{ 
+  font-family: "Open Sans", "Condor", sans-serif;
+  font-weight: normal;
+  
+  color:#2c2c2c 
+}
+
+g{ 
+  font-family: "Open Sans", "Condor", sans-serif;
+  font-weight: bold;
+  color:#2c2c2c 
+}
+
+p{ 
+  font-family: "Open Sans", "Condor", sans-serif;
+  font-weight: normal;
+  color:#2c2c2c 
+}
+
+
+.main {
+  background-color:#F1F2EB;
+}
+
+.noscrolly {
+  padding: 0;
+  max-width: 60rem;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.article {
+  position: relative;
+  padding: 0;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.figure {
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  object-fit: cover;
+  left: 0;
+  margin: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.step {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  height: 100vh;
+}
+
+.step p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Open Sans", "Condor", sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 10px 18px;
+  background-color: rgba(213, 213, 213, 0.95);
+}
+
+.step h4 {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 10px 18px;
+  background-color: rgba(213, 213, 213, 0.9);
+}
+
+
+
+
+
+.sticky-img {
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: scale-down;
+  overflow: hidden;
+}
